@@ -14,7 +14,6 @@ return new class extends Migration
         Schema::create('marcados', function (Blueprint $table) {
             $table->id();
             $table->string('dni',10);
-            $table->timestamps('fecha_hora');
             $table->string('tipo',255);
             $table->date('fecha');
             $table->timestamps();
